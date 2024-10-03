@@ -64,4 +64,10 @@ We have implemented evaluation metrics such as Accuracy, Loss and F1 Score to me
 
 ## Experiment Results
 
-We have implemented the models on the datasets that are integrated within our toolkit. All the implementation follows the build-in configurations. All the experiments are conducted with 5 cross-validation. The experiment results(Equ acc|Val acc) are displayed in the following table.
+| **Model**    | **Dataset** | **Accuracy** | **F1 Score** |
+|--------------|-------------|--------------|--------------|
+| Graph2Tree   | UMLC        | 82.56%       | 81.23%       |
+| BertGen      | MATH        | 74.32%       | 73.21%       |
+| GPT-2        | GSM8K       | 71.02%       | 69.45%       |
+| GPT-3        | UMLC        | 85.00%       | 84.00%       |
+
