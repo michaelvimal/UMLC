@@ -17,7 +17,7 @@ This project highlights the application of advanced NLP models for educational t
 
 
 ## Installtion Requirements
-Read theRrequirements.txt file to understand the basic components required for implementing this project.
+Read the Rrequirements.txt file to understand the basic components required for implementing this project.
 
 ## Directory structure
 
