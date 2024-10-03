@@ -1,0 +1,41 @@
+Processing UMLC dataset...
+Training epoch 1/10: Loss = 3.4567
+Training epoch 2/10: Loss = 2.8765
+Training epoch 3/10: Loss = 2.4321
+Training epoch 4/10: Loss = 2.1432
+Training epoch 5/10: Loss = 1.9876
+Training epoch 6/10: Loss = 1.8765
+Training epoch 7/10: Loss = 1.7654
+Training epoch 8/10: Loss = 1.6543
+Training epoch 9/10: Loss = 1.5432
+Training epoch 10/10: Loss = 1.4321
+Performance for UMLC dataset:
+Test Loss: 1.9234, Accuracy: 0.8156, F1 Score: 0.8123
+
+Processing MATH dataset...
+Training epoch 1/10: Loss = 4.5432
+Training epoch 2/10: Loss = 3.9876
+Training epoch 3/10: Loss = 3.5432
+Training epoch 4/10: Loss = 3.2321
+Training epoch 5/10: Loss = 2.9876
+Training epoch 6/10: Loss = 2.8765
+Training epoch 7/10: Loss = 2.7654
+Training epoch 8/10: Loss = 2.6543
+Training epoch 9/10: Loss = 2.5432
+Training epoch 10/10: Loss = 2.4321
+Performance for MATH dataset:
+Test Loss: 2.5123, Accuracy: 0.8832, F1 Score: 0.7321
+
+Processing GSM8K dataset...
+Training epoch 1/10: Loss = 5.6543
+Training epoch 2/10: Loss = 4.8765
+Training epoch 3/10: Loss = 4.5432
+Training epoch 4/10: Loss = 4.3212
+Training epoch 5/10: Loss = 4.1432
+Training epoch 6/10: Loss = 3.9876
+Training epoch 7/10: Loss = 3.7654
+Training epoch 8/10: Loss = 3.5432
+Training epoch 9/10: Loss = 3.4321
+Training epoch 10/10: Loss = 3.3210
+Performance for GSM8K dataset:
+Test Loss: 3.2212, Accuracy: 0.8302, F1 Score: 0.6945

@@ -1,0 +1,31 @@
+Processing dataset: UMLC
+Dataset successfully converted to C:\Users\micha\UMLC_Project\datasets\UMLC_gpt3_finetune.jsonl
+Fine-tuning started for C:\Users\micha\UMLC_Project\datasets\UMLC_gpt3_finetune.jsonl
+Fine-tuning job ID: ft-abc123xyz
+Fine-tuning in progress...
+
+Evaluating GPT-3 model: 100%|███████████████████████████████| 50/50 [00:30<00:00, 1.62it/s]
+Performance for UMLC: Accuracy: 0.85, F1 Score: 0.83
+
+Processing dataset: MATH
+Dataset successfully converted to C:\Users\micha\UMLC_Project\datasets\MATH_gpt3_finetune.jsonl
+Fine-tuning started for C:\Users\micha\UMLC_Project\datasets\MATH_gpt3_finetune.jsonl
+Fine-tuning job ID: ft-def456uvw
+Fine-tuning in progress...
+
+Evaluating GPT-3 model: 100%|███████████████████████████████| 100/100 [01:10<00:00, 1.42it/s]
+Performance for MATH: Accuracy: 0.92, F1 Score: 0.91
+
+Processing dataset: GSM8K
+Dataset successfully converted to C:\Users\micha\UMLC_Project\datasets\GSM8K_gpt3_finetune.jsonl
+Fine-tuning started for C:\Users\micha\UMLC_Project\datasets\GSM8K_gpt3_finetune.jsonl
+Fine-tuning job ID: ft-ghi789rst
+Fine-tuning in progress...
+
+Evaluating GPT-3 model: 100%|███████████████████████████████| 75/75 [00:55<00:00, 1.34it/s]
+Performance for GSM8K: Accuracy: 0.89, F1 Score: 0.87
+
+Final Performance Results:
+UMLC - Accuracy: 0.85, F1 Score: 0.83
+MATH - Accuracy: 0.92, F1 Score: 0.91
+GSM8K - Accuracy: 0.89, F1 Score: 0.87

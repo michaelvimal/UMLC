@@ -1,0 +1,89 @@
+Here is the detailed list of packages required to implement the four models used in this project.  Graph2Tree, BertGen, GPT-2, and GPT-3
+
+
+### 1. Graph2Tree
+
+	Description: 
+	The Graph2Tree model, implemented through the MWPToolkit, is designed specifically for solving math word problems. It uses a sequence-to-tree generation approach.
+	
+	Required Packages:
+	
+	1. PyTorch:
+	- Core deep learning library used for model training and inference.
+	- Required for all models, including Graph2Tree.
+	
+	2. MWPToolkit:
+	- Toolkit specifically for math word problems. It includes Graph2Tree model implementations and preprocessing utilities.
+	
+	3. scikit-learn:
+	- Used for calculating performance metrics such as Accuracy, F1 score, etc.
+	
+	4. json (Standard Library):
+	- Required to read and parse dataset files in JSON format.
+	- No need to install separately; it's part of the standard Python library.
+
+
+### 2. BertGen
+
+	Description:
+	BertGen is a sequence generation model based on BERT (Bidirectional Encoder Representations from Transformers). It is used for generating answers to math word problems by encoding questions and generating answers.
+	
+	Required Packages:
+	
+	1. PyTorch:
+	- Required for deep learning tasks such as training and inference.
+	
+	2. Transformers (Huggingface):
+	- Provides access to pre-trained models like BERT and tools for tokenization, model training, and generation.
+	
+	3. scikit-learn:
+	- Required for calculating performance metrics such as Accuracy and F1 score.
+	
+	4. json (Standard Library):
+	- For reading JSON-based datasets.
+	
+### 3. GPT-2
+
+	Description:
+	GPT-2 is an autoregressive language model developed by OpenAI. It’s used for text generation tasks and can be fine-tuned on datasets to generate answers to math word problems.
+	
+	Required Packages:
+	
+	1. PyTorch:
+	- Required for all deep learning tasks, including training and inference for GPT-2.
+	
+	2. Transformers (Huggingface):
+	- Provides pre-trained GPT-2 models and utilities for tokenization and model training.
+	
+	3. scikit-learn:
+	- Needed to compute Accuracy, F1 score, and other performance metrics for evaluating GPT-2 models.
+	
+	4. json (Standard Library):
+	- To handle datasets in JSON format.
+	
+### 4. GPT-3
+
+	Description:
+	GPT-3 is a large-scale language model developed by OpenAI. Unlike GPT-2, GPT-3 is accessed via an API and cannot be fine-tuned locally. Predictions and fine-tuning (where applicable) are done using the OpenAI API.
+	
+	Required Packages:
+	
+	1. OpenAI Python Client:
+	- Provides access to the OpenAI API for making GPT-3 requests.
+	
+	2. json (Standard Library):
+	- For reading datasets in JSON format.
+	
+	3. scikit-learn:
+	- Useful for calculating metrics like Accuracy and F1 score based on GPT-3's predictions.
+	
+	### Optional Packages (Useful Across All Models):
+	
+	1. tqdm:
+	- A package to display progress bars during training and inference for better monitoring of tasks.
+	
+	
+	2. NumPy:
+	- Useful for handling numerical data and arrays, especially during preprocessing or post-processing.
+
+
