@@ -64,6 +64,8 @@ We have implemented evaluation metrics such as Accuracy, Loss and F1 Score to me
 
 ## Experiment Results
 
+The experiments were conducted to evaluate the performance of four models—Graph2Tree, BertGen, GPT-2, and GPT-3—across three different datasets: UMLC, MATH, and GSM8K. The evaluation metrics used to measure the models' performance were Accuracy, F1 Score, and Loss.
+
 | **Model**    | **Dataset** | **Accuracy** | **F1 Score** |
 |--------------|-------------|--------------|--------------|
 | Graph2Tree   | UMLC        | 82.56%       | 81.23%       |
