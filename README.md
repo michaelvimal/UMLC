@@ -23,7 +23,6 @@ Read theRrequirements.txt file to understand the basic components required for i
 
 UMLC_Project/
 
-│
 ├── datasets/         # Contains datasets and file tuned copies(UMLC, MATH, GSM8K)
 
 ├── Docs/             # Project installtion documentation
