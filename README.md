@@ -75,4 +75,5 @@ The experiments were conducted to evaluate the performance of four models—Grap
 
 
 
-https://github.com/michaelvimal/UMLC/blob/main/images/Performance_UMLC_Dataset.png
+![Project Diagram](images/Performance_UMLC_Dataset.png)
+
