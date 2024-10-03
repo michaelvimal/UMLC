@@ -74,6 +74,9 @@ The experiments were conducted to evaluate the performance of four models—Grap
 | **GPT-3**     | 0.92     | 0.89      | 0.85     |
 
 
+## Result Diagrams
 
 ![Project Diagram](images/Performance_UMLC_Dataset.png)
 
+
+![Project Diagram](images/UMLC_Comparison.png)
