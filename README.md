@@ -24,11 +24,17 @@ Read theRrequirements.txt file to understand the basic components required for i
 UMLC_Project/
 │
 ├── datasets/         # Contains datasets and file tuned copies(UMLC, MATH, GSM8K)
+
 ├── Docs/             # Project installtion documentation
+
 ├── Logs/             # Stores logs for model training and evaluation and results
+
 ├── Models/           # Contains model scripts (Graph2Tree, BertGen, GPT-2, GPT-3)
+
 ├── README.md         # Overview or description of the project
+
 └── Requirements.txt  # List of required Python packages and dependencies
+
 
 For deployments, you have to change the project path according to your project requirements. You may need to have different versions of python environment to implement and execute the models. Its advisable to have a conda platform to run each model indepentenly. 
 
