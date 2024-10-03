@@ -65,5 +65,3 @@ We have implemented evaluation metrics such as Accuracy, Loss and F1 Score to me
 ## Experiment Results
 
 We have implemented the models on the datasets that are integrated within our toolkit. All the implementation follows the build-in configurations. All the experiments are conducted with 5 cross-validation. The experiment results(Equ acc|Val acc) are displayed in the following table.
-
-# UMLC
